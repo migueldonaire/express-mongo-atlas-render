@@ -33,7 +33,7 @@ app.use(express.json());
 
 // 4. Rutas
 app.get("/", (_req, res) => {
-  res.send("Mi primera API con Express");
+  res.send("Mi primera API con Express con Render y MongoDB Atlas 🚀");
 });
 
 app.get("/api/hello", (req, res) => {
